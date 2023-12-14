@@ -1,0 +1,47 @@
+.gnb {
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+  align-items: center;
+  padding: 20px;
+}
+
+gnb > a {
+  margin : 0px 40px;
+  color : white;
+
+}
+
+.gnb > a:last-child {
+  margin-right : auto;
+}
+
+.main {
+  color : white;
+  padding : 20px;
+}
+
+.main > p {
+   margin-top : 40px;
+   margin-bottom : 10px;
+   font-size: 20px;
+}
+
+.today {
+  background-image: url('https://image.tmdb.org/t/p/w500/p1F51Lvj3sMopG948F5HsBbl43C.jpg');
+  background-position: center;
+  background-size: cover;
+
+  height: 250px;
+
+  padding: 50px;
+  font-size: 32px;
+}
+
+.top > img {
+  margin: 2px;
+}
+
+.top > img {
+  margin: 2px;
+}
